@@ -318,8 +318,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!qrCodeInstance) return;
 
         const data = getQRCodeDataString();
-        const size = parseInt(qrSizeSlider.value);
-        qrSizeValueSpan.textContent = size;
+        // This 'size' is the RENDER/DOWNLOAD size
+        const renderSize = parseInt(qrSizeSlider.value);
+        qrSizeValueSpan.textContent = renderSize;
         const currentDotStyle = dotStyleSelect.value;
         let cornersSquareType = "";
         let cornersDotType = "";
@@ -333,10 +334,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const options = {
-            width: size,
-            height: size,
+            width: renderSize,  // Use the slider value for actual QR rendering
+            height: renderSize, // Use the slider value for actual QR rendering
             data: data,
-            margin: parseInt(defaultSettings.margin),
+            margin: parseInt(defaultSettings.margin), // Or make this configurable
             dotsOptions: {
                 color: fgColorInput.value,
                 type: currentDotStyle,
