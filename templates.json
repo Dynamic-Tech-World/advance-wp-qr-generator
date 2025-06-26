@@ -1,0 +1,535 @@
+[
+    {
+        "id": "clearV1",
+        "name": "Classic Black & White",
+        "thumbnail": "assets/templates/thumb_clear.svg",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#000000", "bgColor": "#FFFFFF", "transparentBg": false, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "", "font": "Arial, sans-serif", "fontSize": "20", "textColor": "#000000"}
+    },
+    {
+        "id": "scanMeBoldV1",
+        "name": "Bold Scan Me",
+        "thumbnail": "assets/templates/thumb_scanme_bold.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#D32F2F", "bgColor": "#F0F0F0", "transparentBg": false, "dotStyle": "rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Contact ME", "font": "Impact, Charcoal, sans-serif", "fontSize": "28", "textColor": "#D32F2F"}
+    },
+    {
+        "id": "floralFramePinkV1",
+        "name": "Pink Floral Frame",
+        "thumbnail": "assets/templates/thumb_floral_pink.png",
+        "frameImage": "assets/templates/frame_floral_pink_border.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#E91E63", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Discover Beauty", "font": "Georgia, serif", "fontSize": "16", "textColor": "#AD1457"}
+    },
+    {
+        "id": "techFrameBlueV1",
+        "name": "Tech Circuit Frame",
+        "thumbnail": "assets/templates/thumb_tech_circuit.png",
+        "frameImage": "assets/templates/frame_tech_circuit_blue.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "GET THE APP", "font": "'Roboto Mono', monospace", "fontSize": "18", "textColor": "#2196F3"}
+    },
+    {
+        "id": "vintageSepiaV1",
+        "name": "Vintage Sepia",
+        "thumbnail": "assets/templates/thumb_vintage_sepia.png",
+        "frameImage": "assets/templates/frame_vintage_border_sepia.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#388E3C", "bgColor": "#F5EFE600", "transparentBg": true, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "font": "'Old Standard TT', serif", "fontSize": "18", "textColor": "#4E342E"}
+    },
+    {
+        "id": "gradientSunsetV1",
+        "name": "Sunset Gradient Dots",
+        "thumbnail": "assets/templates/thumb_gradient_sunset.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#FF8A65", "bgColor": "#FFF3E0", "transparentBg": false, "dotStyle": "classy-rounded", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Scan the Horizon", "font": "Verdana, sans-serif", "fontSize": "16", "textColor": "#E65100"}
+    },
+    {
+        "id": "minimalistGrayV1",
+        "name": "Minimalist Gray",
+        "thumbnail": "assets/templates/thumb_minimal_gray.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#424242", "bgColor": "#EEEEEE", "transparentBg": false, "dotStyle": "square", "errorCorrection": "L"},
+        "scanMeTextSettings": { "text": "", "font": "'Open Sans', sans-serif", "fontSize": "14", "textColor": "#616161"}
+    },
+    {
+        "id": "cartoonFunV1",
+        "name": "Cartoon Fun Frame",
+        "thumbnail": "assets/templates/thumb_cartoon_fun.png",
+        "frameImage": "assets/templates/frame_cartoon_bubbles.png",
+        "frameWrapperPadding": "40px",
+        "qrSettings": { "fgColor": "#FFC107", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "WOW!", "font": "'Comic Neue', cursive", "fontSize": "26", "textColor": "#F44336"}
+    },
+    {
+        "id": "luxuryGoldBlackV1",
+        "name": "Luxury Gold & Black",
+        "thumbnail": "assets/templates/thumb_luxury_goldblack.png",
+        "frameImage": "assets/templates/frame_gold_ornate.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#FFD700", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "VIP Access", "font": "Cinzel, serif", "fontSize": "18", "textColor": "#B8860B"}
+    },
+    {
+        "id": "natureGreenV1",
+        "name": "Nature Green Leafy",
+        "thumbnail": "assets/templates/thumb_nature_green.png",
+        "frameImage": "assets/templates/frame_green_leaves.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#388E3C", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Go Green", "font": "'Raleway', sans-serif", "fontSize": "20", "textColor": "#1B5E20"}
+    },
+    {
+        "id": "oceanBlueWaveV1",
+        "name": "Ocean Blue Wave",
+        "thumbnail": "assets/templates/thumb_ocean_wave.png",
+        "frameImage": "assets/templates/frame_ocean_waves.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Dive In", "font": "'Pacifico', cursive", "fontSize": "22", "textColor": "#0277BD"}
+    },
+    {
+        "id": "coffeeShopChalkV1",
+        "name": "Coffee Chalkboard",
+        "thumbnail": "assets/templates/thumb_coffee_chalk.png",
+        "frameImage": "assets/templates/frame_chalkboard_simple.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#FEF9E7", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "MENU", "font": "'Patrick Hand', cursive", "fontSize": "24", "textColor": "#FDFEFE"}
+    },
+    {
+        "id": "geometricPatternV1",
+        "name": "Geometric Pattern",
+        "thumbnail": "assets/templates/thumb_geometric_pattern.png",
+        "frameImage": "assets/templates/frame_geometric_lines.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#673AB7", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Explore", "font": "Montserrat, sans-serif", "fontSize": "16", "textColor": "#FFFFFF"}
+    },
+    {
+        "id": "christmasThemeV1",
+        "name": "Festive Christmas",
+        "thumbnail": "assets/templates/thumb_christmas_red.png",
+        "frameImage": "assets/templates/frame_christmas_holly.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#C62828", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Merry Christmas!", "font": "'Mountains of Christmas', cursive", "fontSize": "20", "textColor": "#2E7D32"}
+    },
+    {
+        "id": "halloweenSpookyV1",
+        "name": "Spooky Halloween",
+        "thumbnail": "assets/templates/thumb_halloween_orange.png",
+        "frameImage": "assets/templates/frame_halloween_bats.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#FF9800", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "BOO!", "font": "'Creepster', cursive", "fontSize": "30", "textColor": "#212121"}
+    },
+    {
+        "id": "valentinesHeartV1",
+        "name": "Valentine's Heart",
+        "thumbnail": "assets/templates/thumb_valentine_heart.png",
+        "frameImage": "assets/templates/frame_valentine_hearts.png",
+        "frameWrapperPadding": "40px",
+        "qrSettings": { "fgColor": "#F06292", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Love You", "font": "'Great Vibes', cursive", "fontSize": "24", "textColor": "#C2185B"}
+    },
+    {
+        "id": "musicNotesV1",
+        "name": "Music Notes Theme",
+        "thumbnail": "assets/templates/thumb_music_notes.png",
+        "frameImage": "assets/templates/frame_music_clef.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#1A1A1A", "bgColor": "#F5F5F500", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Play Song", "font": "Verdana, sans-serif", "fontSize": "18", "textColor": "#000000"}
+    },
+    {
+        "id": "sportsBallV1",
+        "name": "Sports Theme",
+        "thumbnail": "assets/templates/thumb_sports_ball.png",
+        "frameImage": "assets/templates/frame_sports_lines.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#0D47A1", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "GAME ON", "font": "'Bungee', cursive", "fontSize": "22", "textColor": "#D32F2F"}
+    },
+    {
+        "id": "babyShowerPastelV1",
+        "name": "Baby Shower Pastel",
+        "thumbnail": "assets/templates/thumb_baby_pastel.png",
+        "frameImage": "assets/templates/frame_baby_blocks.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#81D4FA", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "It's a Boy/Girl!", "font": "'Sniglet', cursive", "fontSize": "18", "textColor": "#FFCDD2"}
+    },
+    {
+        "id": "weddingElegantV1",
+        "name": "Elegant Wedding",
+        "thumbnail": "assets/templates/thumb_wedding_gold.png",
+        "frameImage": "assets/templates/frame_wedding_lace.png",
+        "frameWrapperPadding": "40px",
+        "qrSettings": { "fgColor": "#B08D57", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Save the Date", "font": "'Alex Brush', cursive", "fontSize": "24", "textColor": "#5D4037"}
+    },
+    {
+        "id": "retroPixelV1",
+        "name": "Retro Pixel Art",
+        "thumbnail": "assets/templates/thumb_pixel_art.png",
+        "frameImage": "assets/templates/frame_pixel_border.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#4CAF50", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "8-BIT SCAN", "font": "'Press Start 2P', cursive", "fontSize": "14", "textColor": "#FFFFFF"}
+    },
+    {
+        "id": "sciFiHudV1",
+        "name": "Sci-Fi HUD",
+        "thumbnail": "assets/templates/thumb_scifi_hud.png",
+        "frameImage": "assets/templates/frame_scifi_interface.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#00BCD4", "bgColor": "#12121200", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "ACCESS DATA", "font": "'Orbitron', sans-serif", "fontSize": "16", "textColor": "#00E5FF"}
+    },
+    {
+        "id": "grungeTextureV1",
+        "name": "Grunge Texture",
+        "thumbnail": "assets/templates/thumb_grunge.png",
+        "frameImage": "assets/templates/frame_grunge_splatter.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#CFD8DC", "bgColor": "#37474F00", "transparentBg": true, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "UNDERGROUND", "font": "'Special Elite', cursive", "fontSize": "18", "textColor": "#ECEFF1"}
+    },
+    {
+        "id": "popArtComicV1",
+        "name": "Pop Art Comic",
+        "thumbnail": "assets/templates/thumb_popart.png",
+        "frameImage": "assets/templates/frame_comic_burst.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#FDD835", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "POW!", "font": "'Bangers', cursive", "fontSize": "30", "textColor": "#D81B60"}
+    },
+    {
+        "id": "artDecoGoldV1",
+        "name": "Art Deco Gold",
+        "thumbnail": "assets/templates/thumb_artdeco.png",
+        "frameImage": "assets/templates/frame_artdeco_lines.png",
+        "frameWrapperPadding": "28px",
+        "qrSettings": { "fgColor": "#C5A059", "bgColor": "#26323800", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Elegance", "font": "'Cinzel Decorative', cursive", "fontSize": "20", "textColor": "#F5E6C4"}
+    },
+    {
+        "id": "sketchbookDoodleV1",
+        "name": "Sketchbook Doodle",
+        "thumbnail": "assets/templates/thumb_doodle.png",
+        "frameImage": "assets/templates/frame_doodle_swirls.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#546E7A", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "My Ideas", "font": "'Permanent Marker', cursive", "fontSize": "18", "textColor": "#37474F"}
+    },
+    {
+        "id": "winterSnowflakeV1",
+        "name": "Winter Snowflake",
+        "thumbnail": "assets/templates/thumb_winter_snow.png",
+        "frameImage": "assets/templates/frame_snowflakes_blue.png",
+        "frameWrapperPadding": "38px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Let It Snow", "font": "'Satisfy', cursive", "fontSize": "20", "textColor": "#90CAF9"}
+    },
+    {
+        "id": "summerBeachV1",
+        "name": "Summer Beach Vibe",
+        "thumbnail": "assets/templates/thumb_summer_beach.png",
+        "frameImage": "assets/templates/frame_beach_sand.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#00796B", "bgColor": "#FFF9C400", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "SUN & FUN", "font": "'Lobster Two', cursive", "fontSize": "22", "textColor": "#FF8F00"}
+    },
+    {
+        "id": "bakeryDelightsV1",
+        "name": "Bakery Delights",
+        "thumbnail": "assets/templates/thumb_bakery.png",
+        "frameImage": "assets/templates/frame_bakery_sweets.png",
+        "frameWrapperPadding": "33px",
+        "qrSettings": { "fgColor": "#A1887F", "bgColor": "#FFFDE700", "transparentBg": true, "dotStyle": "classy-rounded", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Sweet Treats", "font": "'Cookie', cursive", "fontSize": "24", "textColor": "#D81B60"}
+    },
+    {
+        "id": "travelAdventureV1",
+        "name": "Travel Adventure",
+        "thumbnail": "assets/templates/thumb_travel.png",
+        "frameImage": "assets/templates/frame_travel_stamps.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#455A64", "bgColor": "#ECEFF100", "transparentBg": true, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "EXPLORE MORE", "font": "'Roboto Condensed', sans-serif", "fontSize": "16", "textColor": "#BF360C"}
+    },
+    {
+        "id": "educationBookwormV1",
+        "name": "Education Bookworm",
+        "thumbnail": "assets/templates/thumb_education.png",
+        "frameImage": "assets/templates/frame_books_stacked.png",
+        "frameWrapperPadding": "28px",
+        "qrSettings": { "fgColor": "#0277BD", "bgColor": "#E1F5FE00", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "LEARN", "font": "Merriweather, serif", "fontSize": "20", "textColor": "#01579B"}
+    },
+    {
+        "id": "movieNightTicketV1",
+        "name": "Movie Night Ticket",
+        "thumbnail": "assets/templates/thumb_movie_ticket.png",
+        "frameImage": "assets/templates/frame_movie_reel.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#D32F2F", "bgColor": "#FFF17600", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "NOW SHOWING", "font": "'Anton', sans-serif", "fontSize": "20", "textColor": "#212121"}
+    },
+    {
+        "id": "realEstateModernV1",
+        "name": "Modern Real Estate",
+        "thumbnail": "assets/templates/thumb_realestate.png",
+        "frameImage": "assets/templates/frame_house_outline.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#37474F", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "View Property", "font": "Lato, sans-serif", "fontSize": "16", "textColor": "#00695C"}
+    },
+    {
+        "id": "fitnessGymV1",
+        "name": "Fitness Gym Vibe",
+        "thumbnail": "assets/templates/thumb_fitness.png",
+        "frameImage": "assets/templates/frame_weights_dumbbells.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#F4511E", "bgColor": "#30303000", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "WORKOUT", "font": "'Teko', sans-serif", "fontSize": "24", "textColor": "#FFFFFF"}
+    },
+    {
+        "id": "kidsPlayfulV1",
+        "name": "Kids Playful Colors",
+        "thumbnail": "assets/templates/thumb_kids_play.png",
+        "frameImage": "assets/templates/frame_kids_crayons.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#1976D2", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Fun Time!", "font": "'Comic Sans MS', cursive", "fontSize": "20", "textColor": "#FFEB3B"}
+    },
+    {
+        "id": "simpleBorderScanV1",
+        "name": "Simple Border Scan",
+        "thumbnail": "assets/templates/thumb_simple_border.png",
+        "frameImage": "assets/templates/frame_thin_line_border.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#000000", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "SCAN", "font": "Arial, sans-serif", "fontSize": "18", "textColor": "#333333"}
+    },
+    {
+        "id": "corporateBlueV1",
+        "name": "Corporate Blue",
+        "thumbnail": "assets/templates/thumb_corp_blue.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#0D47A1", "bgColor": "#E3F2FD", "transparentBg": false, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "More Info", "font": "'Open Sans', sans-serif", "fontSize": "16", "textColor": "#0D47A1"}
+    },
+    {
+        "id": "darkElegantDotsV1",
+        "name": "Dark Elegant Dots",
+        "thumbnail": "assets/templates/thumb_dark_dots.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#E0E0E0", "bgColor": "#212121", "transparentBg": false, "dotStyle": "dots", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "", "font": "Helvetica, sans-serif", "fontSize": "14", "textColor": "#BDBDBD"}
+    },
+    {
+        "id": "brightYellowRoundedV1",
+        "name": "Bright Yellow Rounded",
+        "thumbnail": "assets/templates/thumb_bright_yellow.png",
+        "frameImage": null,
+        "qrSettings": { "fgColor": "#424242", "bgColor": "#FFFDE7", "transparentBg": false, "dotStyle": "extra-rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Scan Me!", "font": "Verdana, sans-serif", "fontSize": "20", "textColor": "#FFAB00"}
+    },
+    {
+        "id": "redAlertFrameV1",
+        "name": "Red Alert Frame",
+        "thumbnail": "assets/templates/thumb_red_alert.png",
+        "frameImage": "assets/templates/frame_red_warning_border.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "square", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "IMPORTANT", "font": "Impact, sans-serif", "fontSize": "22", "textColor": "#B71C1C"}
+    },
+    {
+        "id": "stampEffectV1",
+        "name": "Stamp Effect",
+        "thumbnail": "assets/templates/thumb_stamp_effect.png",
+        "frameImage": "assets/templates/frame_postage_stamp.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#263238", "bgColor": "#ECEFF100", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "APPROVED", "font": "'Courier New', monospace", "fontSize": "16", "textColor": "#BF360C"}
+    },
+    {
+        "id": "blueprintGridV1",
+        "name": "Blueprint Grid",
+        "thumbnail": "assets/templates/thumb_blueprint.png",
+        "frameImage": "assets/templates/frame_blueprint_lines.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "DESIGN PLAN", "font": "'Roboto Mono', monospace", "fontSize": "14", "textColor": "#81D4FA"}
+    },
+    {
+        "id": "goldenTicketV1",
+        "name": "Golden Ticket",
+        "thumbnail": "assets/templates/thumb_golden_ticket.png",
+        "frameImage": "assets/templates/frame_golden_ticket_border.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#4A3B06", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "ADMIT ONE", "font": "'Limelight', cursive", "fontSize": "24", "textColor": "#795548"}
+    },
+    {
+        "id": "circuitBoardGreenV1",
+        "name": "Green Circuit Board",
+        "thumbnail": "assets/templates/thumb_circuit_green.png",
+        "frameImage": "assets/templates/frame_circuit_board_detail.png",
+        "frameWrapperPadding": "28px",
+        "qrSettings": { "fgColor": "#00C853", "bgColor": "#1B5E2000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "SYSTEM ONLINE", "font": "Share Tech Mono, monospace", "fontSize": "16", "textColor": "#A5D6A7"}
+    },
+    {
+        "id": "newspaperPrintV1",
+        "name": "Newspaper Print",
+        "thumbnail": "assets/templates/thumb_newspaper.png",
+        "frameImage": "assets/templates/frame_newspaper_column.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#212121", "bgColor": "#FAFAFA00", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "READ MORE", "font": "Times New Roman, serif", "fontSize": "18", "textColor": "#424242"}
+    },
+    {
+        "id": "rainbowPrideV1",
+        "name": "Rainbow Pride",
+        "thumbnail": "assets/templates/thumb_rainbow.png",
+        "frameImage": "assets/templates/frame_rainbow_gradient.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "LOVE WINS", "font": "'Poppins', sans-serif", "fontSize": "20", "textColor": "#4A148C"}
+    },
+    {
+        "id": "starryNightSkyV1",
+        "name": "Starry Night Sky",
+        "thumbnail": "assets/templates/thumb_starry_night.png",
+        "frameImage": "assets/templates/frame_night_sky_stars.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#FFF59D", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Dream Big", "font": "'Allura', cursive", "fontSize": "24", "textColor": "#EDE7F6"}
+    },
+    {
+        "id": "woodGrainTextureV1",
+        "name": "Wood Grain Texture",
+        "thumbnail": "assets/templates/thumb_wood_grain.png",
+        "frameImage": "assets/templates/frame_wood_panel.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#4E342E", "bgColor": "#D7CCC800", "transparentBg": true, "dotStyle": "square", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Natural", "font": "Georgia, serif", "fontSize": "18", "textColor": "#3E2723"}
+    },
+    {
+        "id": "metalPlateIndustrialV1",
+        "name": "Industrial Metal Plate",
+        "thumbnail": "assets/templates/thumb_metal_plate.png",
+        "frameImage": "assets/templates/frame_metal_rivets.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#ECEFF1", "bgColor": "#455A6400", "transparentBg": true, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "ID: SCAN", "font": "'Roboto Condensed', sans-serif", "fontSize": "16", "textColor": "#CFD8DC"}
+    },
+    {
+        "id": "fabricStitchV1",
+        "name": "Fabric Stitch",
+        "thumbnail": "assets/templates/thumb_fabric_stitch.png",
+        "frameImage": "assets/templates/frame_fabric_border_stitch.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#004D40", "bgColor": "#E0F2F100", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Handmade", "font": "'Amatic SC', cursive", "fontSize": "26", "textColor": "#00695C"}
+    },
+    {
+        "id": "cautionTapeV1",
+        "name": "Caution Tape",
+        "thumbnail": "assets/templates/thumb_caution_tape.png",
+        "frameImage": "assets/templates/frame_caution_stripes.png",
+        "frameWrapperPadding": "22px",
+        "qrSettings": { "fgColor": "#000000", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "square", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "WARNING", "font": "Arial Black, sans-serif", "fontSize": "20", "textColor": "#FFEB3B"}
+    },
+    {
+        "id": "paperCutoutV1",
+        "name": "Paper Cutout Art",
+        "thumbnail": "assets/templates/thumb_paper_cutout.png",
+        "frameImage": "assets/templates/frame_paper_layers.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#E91E63", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Create", "font": "'Kalam', cursive", "fontSize": "22", "textColor": "#03A9F4"}
+    },
+    {
+        "id": "marbleStoneV1",
+        "name": "Marble Stone Elegant",
+        "thumbnail": "assets/templates/thumb_marble.png",
+        "frameImage": "assets/templates/frame_marble_texture.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#424242", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "classy", "errorCorrection": "M"},
+        "scanMeTextSettings": { "text": "Luxury", "font": "Trajan Pro, serif", "fontSize": "18", "textColor": "#757575"}
+    },
+    {
+        "id": "scribbleNotesV1",
+        "name": "Scribble Notes",
+        "thumbnail": "assets/templates/thumb_scribble.png",
+        "frameImage": "assets/templates/frame_notebook_paper_lines.png",
+        "frameWrapperPadding": "20px",
+        "qrSettings": { "fgColor": "#1565C0", "bgColor": "#E3F2FD00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "L"},
+        "scanMeTextSettings": { "text": "Quick Note", "font": "'Indie Flower', cursive", "fontSize": "16", "textColor": "#0D47A1"}
+    },
+    {
+        "id": "honeycombHexV1",
+        "name": "Honeycomb Hexagons",
+        "thumbnail": "assets/templates/thumb_honeycomb.png",
+        "frameImage": "assets/templates/frame_hexagonal_pattern.png",
+        "frameWrapperPadding": "28px",
+        "qrSettings": { "fgColor": "#3E2723", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Sweet!", "font": "'Baloo 2', cursive", "fontSize": "20", "textColor": "#FFC107"}
+    },
+    {
+        "id": "fireFlameHotV1",
+        "name": "Fiery Flames",
+        "thumbnail": "assets/templates/thumb_fire_flames.png",
+        "frameImage": "assets/templates/frame_flames_orange_red.png",
+        "frameWrapperPadding": "30px",
+        "qrSettings": { "fgColor": "#DD2C00", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "extra-rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "HOT DEAL", "font": "'Changa One', cursive", "fontSize": "24", "textColor": "#FFAB00"}
+    },
+    {
+        "id": "waterDropletsAquaV1",
+        "name": "Aqua Water Droplets",
+        "thumbnail": "assets/templates/thumb_water_drops.png",
+        "frameImage": "assets/templates/frame_water_ripple.png",
+        "frameWrapperPadding": "33px",
+        "qrSettings": { "fgColor": "#FFFFFF", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "Refresh", "font": "'Caveat Brush', cursive", "fontSize": "22", "textColor": "#00BCD4"}
+    },
+    {
+        "id": "confettiPartyV1",
+        "name": "Confetti Party",
+        "thumbnail": "assets/templates/thumb_confetti.png",
+        "frameImage": "assets/templates/frame_confetti_colorful.png",
+        "frameWrapperPadding": "35px",
+        "qrSettings": { "fgColor": "#D500F9", "bgColor": "#FFFFFF00", "transparentBg": true, "dotStyle": "rounded", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "CELEBRATE!", "font": "'Fredoka One', cursive", "fontSize": "20", "textColor": "#00E676"}
+    },
+    {
+        "id": "spaceGalaxyV1",
+        "name": "Space Galaxy",
+        "thumbnail": "assets/templates/thumb_galaxy.png",
+        "frameImage": "assets/templates/frame_galaxy_nebula.png",
+        "frameWrapperPadding": "40px",
+        "qrSettings": { "fgColor": "#E1F5FE", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "dots", "errorCorrection": "H"},
+        "scanMeTextSettings": { "text": "Explore Universe", "font": "'Audiowide', cursive", "fontSize": "18", "textColor": "#9C27B0"}
+    },
+    {
+        "id": "camoMilitaryV1",
+        "name": "Military Camo",
+        "thumbnail": "assets/templates/thumb_camo.png",
+        "frameImage": "assets/templates/frame_camouflage_green.png",
+        "frameWrapperPadding": "25px",
+        "qrSettings": { "fgColor": "#38512B", "bgColor": "#00000000", "transparentBg": true, "dotStyle": "square", "errorCorrection": "Q"},
+        "scanMeTextSettings": { "text": "MISSION INFO", "font": "Stencil, sans-serif", "fontSize": "16", "textColor": "#556B2F"}
+    }
+]
